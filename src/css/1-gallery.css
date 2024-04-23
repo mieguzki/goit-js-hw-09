@@ -1,12 +1,14 @@
-/* Gallery */
+
 .gallery {
-  margin: 20px auto;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  row-gap: 24px;
-  column-gap: 24px;
-}
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0;
+  gap: 24px;
+  width: 1440px;
+  list-style: none;
+};
 
 .gallery-image {
   max-width: 100%;
