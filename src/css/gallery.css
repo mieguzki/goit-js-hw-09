@@ -1,0 +1,46 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  background-color: #e8fdff;
+  position: relative;
+}
+.go-back-link {
+  display: block;
+  background-image: url('../img/goBack.svg');
+  height: 25px;
+  width: 25px;
+}
+.gallery {
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.gallery-item {
+  max-width: 360px;
+}
+
+.gallery-image {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+/* ------------- SimpleLightbox ----------*/
+.hidden-scroll .sl-overlay{
+  background-color: black;
+}
+.sl-wrapper .sl-close {
+  color: #ffff !important;
+}
+.sl-navigation .sl-next, .sl-prev{
+  color: #ffff !important;
+}
+
+.sl-wrapper .sl-counter {
+  color: #ffff !important;
+}

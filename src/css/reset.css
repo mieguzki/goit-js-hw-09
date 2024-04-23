@@ -33,3 +33,12 @@ img {
   max-width: 100%;
   height: auto;
 }
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: rgb(228, 228, 228);
+}
